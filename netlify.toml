@@ -1,0 +1,11 @@
+[context.production.environment]
+  HUGO_VERSION = "0.92.1"
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
