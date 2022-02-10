@@ -1,1 +1,0 @@
-<span class="Tags-item u-background"><a class="Tags-link u-clickable" href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a></span>

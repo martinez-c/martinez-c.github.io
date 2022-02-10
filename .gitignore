@@ -1,7 +1,0 @@
-public/
-resources/
-*.zip
-content/*.zip
-content/hugo*
-*.sh
-hugo*

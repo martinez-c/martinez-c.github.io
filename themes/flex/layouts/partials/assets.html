@@ -1,6 +1,0 @@
-{{- range .Scratch.GetSortedMapValues "css" }}
-<link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-{{- end }}
-{{- range .Scratch.GetSortedMapValues "js" }}
-<script defer src="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
-{{- end }}
